@@ -10,6 +10,7 @@ chrome.webNavigation.onCompleted.addListener(function(details) {
       // Now you have access to the tab's title and URL
       const pageTitle = tab.title;
       const pageUrl = tab.url;
+      const timestamp = Math.floor(Date.now() / 1000); // Current UNIX timestamp
 
       // Retrieve the server URL from storage
       chrome.storage.sync.get('serverUrl', function(data) {
@@ -18,7 +19,8 @@ chrome.webNavigation.onCompleted.addListener(function(details) {
         // Construct the body of your POST request
         const postData = {
           url: pageUrl,
-          title: pageTitle
+          title: pageTitle,
+          timestamp: timestamp,  
         };
 
         // Perform the POST request

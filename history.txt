@@ -42,3 +42,10 @@
 1383 l
 1383 l
 1385 rm -rf .webhistory/
+1387 git add .
+1388 gc "webhistoryserver.py"
+1389 l
+1390 vi background.js
+1390 vi background.js
+1391 l
+1393 gd
