@@ -1,0 +1,8 @@
+The following information is collected by this browser extension:
+
+Navigation URL:  URLs that you enter into the URL bar, or links that you click.
+Page Title:  The title of the page that appears at the top of the browser window.
+Timestamp:  The timestamp at the time you navigate to a page.
+
+This information is NOT shared with any other party.
+Nobody besides you will ever see this data.

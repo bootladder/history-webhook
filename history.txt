@@ -61,3 +61,9 @@
 1404 gthumb .
 1405 l
 1406 file extensionmenu.png
+1408 git add .
+1409 gc
+1410 gc "more screenshots"
+1411 l
+1412 vi privacy.txt
+1413 l
