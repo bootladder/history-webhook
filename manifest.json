@@ -1,5 +1,6 @@
 {
   "manifest_version": 3,
+  "options_page": "options.html",
   "name": "Page Load Tracker",
   "version": "1.0",
   "permissions": [

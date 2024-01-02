@@ -1,2 +1,13 @@
 1273 vi notes.txt
 1275 vi history.txt
+1276 git add .
+1278 git remote -v
+1279 gc "screenshots"
+1280 vi manifest.json
+1281 l
+1282 gd background.js
+1283 l
+1284 vi manifest.json
+1285 vi options.
+1286 vi options.js
+1287 vi background.js
