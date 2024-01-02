@@ -22,3 +22,23 @@
 1297 l
 1297 l
 1298 vi manifest.json
+1300 git add .
+1301 gc "options popup"
+1302 l
+1302 l
+1303 vi webhistoryserver.py
+1304 pythoon webhistoryserver.py
+1305 python webhistoryserver.py
+1306 vi webhistoryserver.py
+1380 bg
+1380 bg
+1381 l
+1307 python webhistoryserver.py
+1307 python webhistoryserver.py
+1308 l
+1309 ll
+1382 vi webhistoryserver.py
+1383 l
+1383 l
+1383 l
+1385 rm -rf .webhistory/
