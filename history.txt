@@ -49,3 +49,15 @@
 1390 vi background.js
 1391 l
 1393 gd
+1395 git add .
+1396 gc "add timestamp"
+1397 l
+1398 mv ~/Screenshot\ from\ 2024-01-02\ 23-08-* .
+1399 l
+1400 gthumb .
+1401 l
+1402 mv ~/Screenshot\ from\ 2024-01-02\ 23-11-16.png .
+1403 l
+1404 gthumb .
+1405 l
+1406 file extensionmenu.png
