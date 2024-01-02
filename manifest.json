@@ -1,6 +1,8 @@
 {
   "manifest_version": 3,
-  "options_page": "options.html",
+  "action": {
+    "default_popup": "popup.html"
+  },
   "name": "Page Load Tracker",
   "version": "1.0",
   "permissions": [

@@ -11,3 +11,14 @@
 1285 vi options.
 1286 vi options.js
 1287 vi background.js
+1289 git add .
+1290 gc "options page"
+1291 vi manifest.json
+1292 vi popup.html
+1293 l
+1294 vi popup.js
+1295 rm options.(
+1296 rm options.*
+1297 l
+1297 l
+1298 vi manifest.json
