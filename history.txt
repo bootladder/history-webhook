@@ -77,3 +77,54 @@
 1421 l
 1431 gd
 1433 gd
+1435 git add .
+1436 gc "add hook in server"
+1310 python webhistoryserver.py
+1310 python webhistoryserver.py
+1436 gc "add hook in server"
+1437 l
+1438 vi webhistoryserver.py
+1439 tail -f /tmp/yaytest
+1440 l
+1441 pview-add-bookmark.py "yay"
+1442 pview-add-bookmark.py "yay2"
+1443 l
+1443 l
+1444 echo asldf | pview-add-webhistory.py
+1445 l
+1446 vi webhistory
+1447 vi webhistory.txt
+1527 echo yay3
+1527 echo yay3
+1528 l
+1528 l
+1529 tail -f webhistory.txt
+1530 l
+1531 vi webhistory.txt
+1531 vi webhistory.txt
+1532 l
+1532 l
+1532 l
+1533 cat /tmp/yaytest
+1534 tail -f /tmp/yaytest
+1535 tail -f /tmp/yayest
+1536 tail -f /tmp/yaytest
+1486 vi webhistoryserver.py
+1448 l
+1448 l
+1448 l
+1449 datge
+1450 date
+1451 l
+1536 tail -f /tmp/yaytest
+1451 l
+1452 tail -f webhistory.jsonl
+1453 l
+1454 vi webhistory.jsonl
+1455 tail -f webhistory.jsonl
+1456 l
+1457 vi webhistory.txt
+1458 l
+1459 rm webhistory.txt
+1460 l
+1462 l
