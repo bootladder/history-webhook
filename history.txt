@@ -67,3 +67,13 @@
 1411 l
 1412 vi privacy.txt
 1413 l
+1415 git add .
+1416 gc "privacy"
+1417 l
+1419 git remote add origin git@github.com:bootladder/history-webhook.git
+1420 gpom -u
+1421 l
+1421 l
+1421 l
+1431 gd
+1433 gd

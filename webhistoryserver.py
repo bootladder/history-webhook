@@ -2,6 +2,7 @@ from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 import json
 from pathlib import Path
+import os
 
 app = FastAPI()
 
@@ -16,6 +17,7 @@ app.add_middleware(
 
 
 history_file = Path("~/.webhistory/chrome.json").expanduser()
+hook_file = Path("~/.webhistory/hook.sh").expanduser()
 history_file.parent.mkdir(parents=True, exist_ok=True)
 if not history_file.exists():
     history_file.touch()  # Creates an empty file
@@ -39,6 +41,10 @@ async def receive_history(request: Request):
     
     with open(history_file, "w", encoding="utf-8") as file:
         json.dump(history, file, indent=4)
+
+    if hook_file.exists() and os.access(hook_file, os.X_OK):
+        with open(hook_file, "r") as file:
+            os.system(f"echo '{json.dumps(data, indent=4)}' | bash {hook_file}")
 
     return {"status": "success"}
 

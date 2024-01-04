@@ -1,6 +1,7 @@
 chrome.webNavigation.onCompleted.addListener(function(details) {
 
   if (details.frameId !== 0) return;
+  console.log("Got webNavigation")
   // Use chrome.tabs API to get the tab information
   chrome.tabs.get(details.tabId, function(tab) {
     // Check if you got the tab information successfully
