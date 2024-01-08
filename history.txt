@@ -172,3 +172,15 @@
 1859 yank | wc -c
 2045 l
 2046 grv
+2060 git add .
+2061 gc "change manifest name to History Webhook"
+2062 l
+2000 bash /tmp/lastpatch.patch
+2069 cd history-webhook
+2070 l
+2071 vi manifest.json
+2071 vi manifest.json
+2072 l
+2079 cd history-webhook
+2080 l
+2082 gd
