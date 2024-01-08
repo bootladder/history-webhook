@@ -128,3 +128,47 @@
 1459 rm webhistory.txt
 1460 l
 1462 l
+1464 git add .
+1465 gc "webhistory tested works doesnt matter"
+1536 tail -f /tmp/yaytest
+1486 vi webhistoryserver.py
+1437 git push
+510 sbrc
+1844 sbrc
+1845 filetree.pyh
+1846 filetree.py
+511 pview.py
+511 pview.py
+512 sbrc
+1439 sbrc
+1440 filetree.py
+1848 filetree.py
+513 pview.py
+514 filetree.py
+515 pview.py
+515 pview.py
+515 pview.py
+1849 yank | promptxargstransform.py
+1849 yank | promptxargstransform.py
+1849 yank | promptxargstransform.py
+1850 l
+1850 l
+1852 l
+1441 l
+1939 man xargs
+1939 man xargs
+1939 man xargs
+1940 clonemygitrepo resume
+1941 mv resume/ /opt/projects/
+1852 l
+1853 yank
+1853 yank
+1854 yank | promptxargstransform.py
+1854 yank | promptxargstransform.py
+1855 l
+1858 yank | promptxargstransform.py
+1859 yank | wc -c
+1859 yank | wc -c
+1859 yank | wc -c
+2045 l
+2046 grv

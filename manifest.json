@@ -3,7 +3,7 @@
   "action": {
     "default_popup": "popup.html"
   },
-  "name": "Page Load Tracker",
+  "name": "History Webhook",
   "version": "1.0",
   "permissions": [
     "tabs", "webNavigation", "storage"
